@@ -28,7 +28,7 @@
 .Display-Navbar-Element {
     display: flex;
     height: 1.5rem;
-    width: 4rem;
+    width: 3.1rem;
     font-weight: bold;
     margin: 0 0.2rem;
     background-color: #270327;
@@ -37,7 +37,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 9px;
+    font-size: 8px;
 }
 
 a {
