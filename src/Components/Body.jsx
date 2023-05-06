@@ -1,9 +1,10 @@
 import React from 'react';
 import "./Styles/Body.css"
+import body from '../assets/body.png'
 const Body = () => {
     return (
         <div className='Body'>
-            <img src={"/public/Body.png"} alt="Body" className='Body-Image' />
+            <img src={body} alt="Body" className='Body-Image' />
         </div>
     );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
 import './Styles/Display.css'
+import Logo from '../assets/logo.png'
 const Display = () => {
     return (
         <div className='Display'>
-            <img src="/public/Logo.png" alt="Logo" className='Display-Logo' />
+            <img src={Logo} alt="Logo" className='Display-Logo' />
             <ul className='Display-Navbar'>
                 <a href=""><li className='Display-Navbar-Element'>TELEGRAM</li></a>
                 <a href=""><li className='Display-Navbar-Element'>DEXTOOLS</li></a>
