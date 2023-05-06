@@ -1,0 +1,74 @@
+.Display {
+    display: flex;
+    flex-direction: row;
+    background-image: url("/public/Display.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.Display-Navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    height: 2rem;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.Display-Logo {
+    width: 8rem;
+    height: 3rem;
+}
+
+.Display-Navbar-Element {
+    display: flex;
+    height: 1.5rem;
+    width: 4rem;
+    font-weight: bold;
+    margin: 0 0.2rem;
+    background-color: #270327;
+    color: white;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 9px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover .Display-Navbar-Element {
+    background-color: #410641;
+    cursor: pointer;
+}
+
+@media screen and (min-width:480px) {
+
+    .Display-Navbar-Element {
+        height: 1.5rem;
+        width: 4.5rem;
+        margin: 0 0.2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .Display-Logo {
+        width: 18rem;
+        height: 6rem;
+    }
+
+    .Display-Navbar-Element {
+        height: 3rem;
+        width: 7rem;
+        margin: 0 0.2rem;
+        font-size: 12px;
+    }
+}
