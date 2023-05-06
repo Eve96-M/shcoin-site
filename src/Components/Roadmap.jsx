@@ -1,6 +1,6 @@
 import React from 'react';
 import roadmap from '../assets/roadmap.png'
-import './Styles/roadmap.css'
+import './Styles/Roadmap.css'
 const Roadmap = () => {
     return (
         <div className='Roadmap'>
