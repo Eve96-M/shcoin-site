@@ -6,8 +6,8 @@ const Display = () => {
         <div className='Display'>
             <img src={Logo} alt="Logo" className='Display-Logo' />
             <ul className='Display-Navbar'>
-                <a href=""><li className='Display-Navbar-Element'>TELEGRAM</li></a>
-                <a href=""><li className='Display-Navbar-Element'>DEXTOOLS</li></a>
+                <a href="https://t.me/jabbaverification"><li className='Display-Navbar-Element'>TELEGRAM</li></a>
+                <a href="https://www.dextools.io/app/en/pairs"><li className='Display-Navbar-Element'>DEXTOOLS</li></a>
                 <a href=""><li className='Display-Navbar-Element'>ROADMAP</li></a>
                 <a href=""><li className='Display-Navbar-Element'>BUY</li></a>
             </ul>
