@@ -9,7 +9,7 @@ const Display = () => {
                 <a href=""><li className='Display-Navbar-Element'>TELEGRAM</li></a>
                 <a href=""><li className='Display-Navbar-Element'>DEXTOOLS</li></a>
                 <a href=""><li className='Display-Navbar-Element'>ROADMAP</li></a>
-                <a href=""><li className='Display-Navbar-Element'>LFG BITCH</li></a>
+                <a href=""><li className='Display-Navbar-Element'>BUY</li></a>
             </ul>
         </div>
     );
