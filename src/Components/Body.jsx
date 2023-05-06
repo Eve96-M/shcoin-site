@@ -3,7 +3,7 @@ import "./Styles/Body.css"
 const Body = () => {
     return (
         <div className='Body'>
-            <img src="/public/Body.png" alt="" className='Body-Image' />
+            <img src="/public/Body.png" alt="Body" className='Body-Image' />
         </div>
     );
 };
