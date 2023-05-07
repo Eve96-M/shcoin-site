@@ -3,7 +3,7 @@ import './Styles/Footer.css'
 const Footer = () => {
     return (
         <div className='Footer'>
-            <h2>© JABBA Queen 2023. All rights reserved</h2>
+            <h2>Contact : jabba-queen@protonmail.com</h2>
         </div>
     );
 };
