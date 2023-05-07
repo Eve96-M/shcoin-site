@@ -18,9 +18,9 @@ function App() {
           <img src={Logo} alt="Logo" className='Display-Logo' />
           <ul className='Display-Navbar'>
             <a href="https://t.me/jabbaverification"><li className='Display-Navbar-Element'>TELEGRAM</li></a>
-            <a href="https://www.dextools.io/app/en/pairs"><li className='Display-Navbar-Element'>DEXTOOLS</li></a>
+            <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xd501b25767fc38bae3f45537cb8fd892fb1d60c1"><li className='Display-Navbar-Element'>DEXTOOLS</li></a>
             <Link to='#Roadmap' smooth className='Display-Navbar-Element'>ROADMAP</Link>
-            <a href=""><li className='Display-Navbar-Element'>BUY</li></a>
+            <a href="https://app.uniswap.org/#/swap?&inputCurrency=ETH&outputCurrency=0x790ef03c0bcedf6c53e1f16484ce60a0c92d261d"><li className='Display-Navbar-Element'>BUY</li></a>
           </ul>
         </div>
         <Body />
