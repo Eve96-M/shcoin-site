@@ -49,6 +49,11 @@ a:hover .Display-Navbar-Element {
     cursor: pointer;
 }
 
+.Display-Navbar-Element:hover {
+    background-color: #410641;
+    cursor: pointer;
+}
+
 @media screen and (min-width:480px) {
 
     .Display-Navbar-Element {
